@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660172872 source:c:\users\bruna\3d objects\trabalhopong\main.c
+	<stdio.h>
+	<allegro5/allegro.h>
+
