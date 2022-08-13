@@ -3,6 +3,7 @@
 	<stdio.h>
 	<allegro5/allegro.h>
 
+<<<<<<< HEAD
 1660417647 source:c:\users\user\3d objects\jogo-allegro-main\main.c
 	<stdio.h>
 	<allegro5/allegro.h>
@@ -580,3 +581,5 @@
 
 1372628331 c:\mingw\include\allegro5\alcompat.h
 
+=======
+>>>>>>> 261584563e1ace01d4883df2351b8eb0dca9e2e8
