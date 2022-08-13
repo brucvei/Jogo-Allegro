@@ -13,17 +13,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-<<<<<<< HEAD
 					<Add directory="../allegro-5.0.10-mingw-4.7.0/include" />
 				</Compiler>
 				<Linker>
 					<Add library="../allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt-debug.a" />
-=======
-					<Add directory="include" />
-				</Compiler>
-				<Linker>
-					<Add library="../../../../Allegro/Allegro/AllegroMinGw/lib/liballegro-5.0.10-monolith-mt-debug.a" />
->>>>>>> 261584563e1ace01d4883df2351b8eb0dca9e2e8
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -33,27 +26,21 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-<<<<<<< HEAD
 					<Add directory="../allegro-5.0.10-mingw-4.7.0/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add library="../allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-monolith-mt.a" />
-=======
-					<Add directory="include" />
-				</Compiler>
-				<Linker>
-					<Add option="-s" />
-					<Add library="../../../../Allegro/Allegro/AllegroMinGw/lib/liballegro-5.0.10-monolith-mt.a" />
->>>>>>> 261584563e1ace01d4883df2351b8eb0dca9e2e8
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-<<<<<<< HEAD
 			<Add directory="../allegro-5.0.10-mingw-4.7.0/include" />
 		</Compiler>
+		<Unit filename="Background.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="Background.h" />
 		<Unit filename="Constants.h" />
 		<Unit filename="Game.c">
@@ -64,17 +51,5 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
-=======
-			<Add directory="../../../../Allegro/Allegro/AllegroMinGw/include" />
-		</Compiler>
-		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
->>>>>>> 261584563e1ace01d4883df2351b8eb0dca9e2e8
 	</Project>
 </CodeBlocks_project_file>

@@ -1,19 +1,46 @@
 #include <stdio.h>
 #include <allegro5/allegro.h>
 
-<<<<<<< HEAD
-#include "Constants.h"
-#include "Game.h"
-
 extern void initGame();
 extern void updateGame();
 extern void renderGame();
 extern void handleInputGame();
 extern void disposeGame();
 
+#include "Constants.h"
+#include "Game.h"
+
 ALLEGRO_DISPLAY* display = NULL;
 ALLEGRO_EVENT_QUEUE* event_queue = NULL;
 ALLEGRO_TIMER* timer = NULL;
+
+void update()
+{
+    updateGame();
+};
+
+void render()
+{
+    al_clear_to_color(al_map_rgb_f(0, 0, 0));
+
+    renderGame();
+
+    al_flip_display();
+};
+
+void handleInput()
+{
+    handleInputGame();
+};
+
+void dispose()
+{
+    disposeGame();
+
+    al_destroy_display(display);
+    al_destroy_timer(timer);
+    al_destroy_event_queue(event_queue);
+};
 
 int main(void)
 {
@@ -67,59 +94,3 @@ int main(void)
 
     return 0;
 }
-
-void update()
-{
-    updateGame();
-};
-
-void render()
-{
-    al_clear_to_color(al_map_rgb_f(0, 0, 0));
-
-    renderGame();
-
-    al_flip_display();
-};
-
-void handleInput()
-{
-    handleInputGame();
-};
-
-void dispose()
-{
-    disposeGame();
-
-    al_destroy_display(display);
-    al_destroy_timer(timer);
-    al_destroy_event_queue(event_queue);
-};
-=======
-
-int main(void){
-	if (!al_init()){
-        printf("Allegro nao inicializado");
-        return -1;
-	}
-
-	ALLEGRO_DISPLAY* display = NULL;
-	ALLEGRO_EVENT_QUEUE* event_queue = NULL;
-	ALLEGRO_TIMER* timer = NULL;
-
-	display = al_create_display(400, 400);
-	event_queue = al_create_event_queue();
-	timer = al_create_timer(1.0/60);
-
-	al_install_keyboard();
-
-	al_register_event_source(event_queue, al_get_display_event_source(display));
-	al_register_event_source(event_queue, al_get_timer_event_source(timer));
-	al_register_event_source(event_queue, al_get_keyboard_event_source());
-
-	BOOL running = TRUE;
-
-	return 0;
-}
-
->>>>>>> 261584563e1ace01d4883df2351b8eb0dca9e2e8

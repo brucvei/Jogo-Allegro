@@ -3,7 +3,7 @@
 
 struct background
 {
-    int x = 0, y = 0;
+    int x, y;
     char filename[50];
     ALLEGRO_BITMAP* backgroundImage;
 };

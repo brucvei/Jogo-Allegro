@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 extern void initBackground();
-
+extern void updateBackground();
+extern void renderBackground();
+extern void disposeBackground();
 
 void initGame()
 {
@@ -10,12 +12,12 @@ void initGame()
 
 void updateGame()
 {
-
+    updateBackground();
 };
 
 void renderGame()
 {
-
+    renderBackground();
 };
 
 void handleInputGame()
@@ -25,5 +27,5 @@ void handleInputGame()
 
 void disposeGame()
 {
-
+    disposeBackground();
 };
