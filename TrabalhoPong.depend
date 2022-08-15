@@ -5,11 +5,11 @@
 
 1660172872 D
 
-1660425971 source:c:\users\user\3d objects\jogo-allegro-main\main.c
+1660574795 source:c:\users\user\3d objects\jogo-allegro-main\main.c
 	<stdio.h>
 	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
 	"Constants.h"
-	"Game.h"
 
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro.h
 	"allegro5/base.h"
@@ -586,19 +586,21 @@
 
 1372628331 584563e1ace01d4883df2351b8eb0dca9e2e8
 
-1660426058 c:\users\user\3d objects\jogo-allegro-main\constants.h
+1660572486 c:\users\user\3d objects\jogo-allegro-main\constants.h
 
-1660421982 c:\users\user\3d objects\jogo-allegro-main\game.h
-
-1660425991 source:c:\users\user\3d objects\jogo-allegro-main\game.c
-	<stdio.h>
-
-1660426033 source:c:\users\user\3d objects\jogo-allegro-main\background.c
-	<stdio.h>
-	<allegro5/allegro.h>
-	"Background.h"
+1660572188 c:\users\user\3d objects\jogo-allegro-main\game.h
 	"Constants.h"
 
-1660426016 c:\users\user\3d objects\jogo-allegro-main\background.h
+1660573767 source:c:\users\user\3d objects\jogo-allegro-main\game.c
 	<stdio.h>
+
+1660574800 source:c:\users\user\3d objects\jogo-allegro-main\background.c
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1660571750 c:\users\user\3d objects\jogo-allegro-main\background.h
+	<stdio.h>
+
+1362327499 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 

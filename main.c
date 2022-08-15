@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <allegro5/allegro.h>
+#include <allegro5/allegro_image.h>
+
+//#include "Constants.h"
+
+ALLEGRO_DISPLAY* display = NULL;
+ALLEGRO_EVENT_QUEUE* event_queue = NULL;
+ALLEGRO_TIMER* timer = NULL;
 
 extern void initGame();
 extern void updateGame();
@@ -8,11 +15,6 @@ extern void handleInputGame();
 extern void disposeGame();
 
 #include "Constants.h"
-#include "Game.h"
-
-ALLEGRO_DISPLAY* display = NULL;
-ALLEGRO_EVENT_QUEUE* event_queue = NULL;
-ALLEGRO_TIMER* timer = NULL;
 
 void update()
 {
@@ -21,7 +23,7 @@ void update()
 
 void render()
 {
-    al_clear_to_color(al_map_rgb_f(0, 0, 0));
+    //al_clear_to_color(al_map_rgb_f(1, 0, 1));
 
     renderGame();
 
@@ -55,6 +57,7 @@ int main(void)
     timer = al_create_timer(1.0/FPS);
 
     al_install_keyboard();
+    al_init_image_addon();
 
     al_register_event_source(event_queue, al_get_display_event_source(display));
     al_register_event_source(event_queue, al_get_timer_event_source(timer));

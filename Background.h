@@ -1,9 +1,10 @@
 #pragma once
 #include<stdio.h>
+//#include "Constants.h"
 
-struct background
-{
-    int x, y;
-    char filename[50];
-    ALLEGRO_BITMAP* backgroundImage;
-};
+
+
+void initBackground();
+void updateBackground();
+void renderBackground();
+void disposeBackground();

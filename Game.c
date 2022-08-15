@@ -5,19 +5,21 @@ extern void updateBackground();
 extern void renderBackground();
 extern void disposeBackground();
 
+//#include "Constants.h"
+
 void initGame()
 {
-    initBackground("src/stars.jpg");
+    initBackground("image.jpg");
 };
 
 void updateGame()
 {
-    updateBackground();
+
 };
 
 void renderGame()
 {
-    renderBackground();
+
 };
 
 void handleInputGame()
