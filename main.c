@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
+#include<allegro5/allegro_primitives.h>
 
 //#include "Constants.h"
 
@@ -58,6 +59,7 @@ int main(void)
 
     al_install_keyboard();
     al_init_image_addon();
+    al_init_primitives_addon();
 
     al_register_event_source(event_queue, al_get_display_event_source(display));
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
