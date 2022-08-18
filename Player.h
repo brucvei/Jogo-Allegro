@@ -14,6 +14,8 @@ public:
     void handleInput();
     void dispose();
 
+    void fireBullet();
+
 private:
     float x;
     float y;
@@ -27,7 +29,7 @@ private:
     bool right;
     bool up;
     bool down;
-    bool shooting;
+    bool firing;
 
     ALLEGRO_KEYBOARD_STATE key_state;
 

@@ -1,11 +1,12 @@
 #include <iostream>
+#include <cmath>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 
 #include "Bullet.h"
 #include "Constants.h"
 
-Bullet::Bullet(float angle, float x, float y) : angle(angle_), x(x_), y(y_)
+Bullet::Bullet(float angle, float x, float y)
 {
     init();
 }

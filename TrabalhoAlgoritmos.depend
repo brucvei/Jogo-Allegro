@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1660796542 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
+1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
@@ -232,31 +232,33 @@
 
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\alcompat.h
 
-1660793030 c:\users\user\3d objects\trabalhoalgoritmos\constants.h
+1660798104 c:\users\user\3d objects\trabalhoalgoritmos\constants.h
 
-1660796423 c:\users\user\3d objects\trabalhoalgoritmos\game.h
+1660798104 c:\users\user\3d objects\trabalhoalgoritmos\game.h
 	"Background.h"
 	"Player.h"
 
-1660795274 c:\users\user\3d objects\trabalhoalgoritmos\background.h
+1660798104 c:\users\user\3d objects\trabalhoalgoritmos\background.h
 	<iostream>
 	<allegro5/allegro.h>
 
 1362327499 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 
-1660795472 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
+1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	"Background.h"
 	"Constants.h"
 
-1660796487 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
+1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
 	"Game.h"
 
-1660796556 c:\users\user\3d objects\trabalhoalgoritmos\player.h
+1660798312 c:\users\user\3d objects\trabalhoalgoritmos\player.h
 	<iostream>
 	<allegro5/allegro.h>
+	<vector>
+	"Bullet.h"
 
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
 	<allegro5/allegro.h>
@@ -266,4 +268,16 @@
 	"Constants.h"
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
+
+1660798853 c:\users\user\3d objects\trabalhoalgoritmos\bullet.h
+	<iostream>
+	<allegro5/allegro.h>
+
+1660798910 source:c:\users\user\3d objects\trabalhoalgoritmos\bullet.cpp
+	<iostream>
+	<cmath>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	"Bullet.h"
+	"Constants.h"
 
