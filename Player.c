@@ -21,6 +21,19 @@ extern void updateBullet();
 extern void renderBullet();
 extern float removeBullet();
 
+float getXPlayer(){
+    return Player.x;
+}
+
+float getYPlayer(){
+    return Player.y;
+}
+
+float getRadiusPlayer()
+{
+    return Player.radius;
+}
+
 void initPlayer()
 {
     Player.x = 30;
@@ -76,17 +89,22 @@ void updatePlayer()
     if(Player.x + Player.radius > 800) Player.x = 800 - Player.radius;
     if(Player.y + Player.radius > 400) Player.y = 400 - Player.radius;
 
-    if(Player.atirando){
-            printf("qi");
-        if(al_get_timer_started(timer_2)){
+    if(Player.atirando)
+    {
+        printf("qi");
+        if(al_get_timer_started(timer_2))
+        {
             al_start_timer(timer_2);
             initBullet(0, Player.x, Player.y);
         }
         ALLEGRO_EVENT event_2;
-        if(al_get_next_event(event_queue_2, &event_2)){
-           initBullet(0, Player.x, Player.y);
+        if(al_get_next_event(event_queue_2, &event_2))
+        {
+            initBullet(0, Player.x, Player.y);
         }
-    } else {
+    }
+    else
+    {
         al_stop_timer(timer_2);
     }
 

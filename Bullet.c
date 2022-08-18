@@ -11,6 +11,21 @@ struct bullet
 
 struct bullet Bullet;
 
+float getXBullet()
+{
+    return Bullet.x;
+}
+
+float getYBullet()
+{
+    return Bullet.y;
+}
+
+float getRadiusBullet()
+{
+    return Bullet.radius;
+}
+
 void initBullet(float angle, float x, float y)
 {
     printf("initBullet");
@@ -31,10 +46,11 @@ void renderBullet()
 {
     printf("renderBullet");
     al_draw_filled_circle(Bullet.x, Bullet.y, Bullet.radius, al_map_rgb_f(1, 1, 1));
-    al_draw_circle(Bullet.x, Bullet.y, Bullet.radius, al_map_rgb_f(1, 1, 1), 3);
+    al_draw_circle(Bullet.x, Bullet.y, Bullet.radius, al_map_rgb_f(0.3, 0.7,0), 3);
 };
 
-float removeBullet(){
+float removeBullet()
+{
     printf("removeBullet");
     return Bullet.x >= al_get_display_width(al_get_current_display()) || Bullet.y >= al_get_display_height(al_get_current_display()) || Bullet.x < 0 || Bullet.y < 0;
 }

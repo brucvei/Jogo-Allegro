@@ -41,16 +41,16 @@
 		<Unit filename="Background.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Background.h" />
+		<Unit filename="Bullet.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="Constants.h" />
 		<Unit filename="Game.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Game.h" />
 		<Unit filename="Player.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Player.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
