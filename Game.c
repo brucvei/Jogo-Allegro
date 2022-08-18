@@ -25,11 +25,13 @@ void updateGame()
 
 void renderGame()
 {
+//    initBackground("image.jpg");
     renderPlayer();
 };
 
 void handleInputGame()
 {
+    //initBackground("image.jpg");
     handleInputPlayer();
 };
 

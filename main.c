@@ -24,7 +24,7 @@ void update()
 
 void render()
 {
-    //al_clear_to_color(al_map_rgb_f(1, 0, 1));
+    al_clear_to_color(al_map_rgb_f(0, 0, 0));
 
     renderGame();
 

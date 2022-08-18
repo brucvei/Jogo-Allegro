@@ -5,7 +5,7 @@
 
 1660172872 D
 
-1660648905 source:c:\users\user\3d objects\jogo-allegro-main\main.c
+1660779812 source:c:\users\user\3d objects\jogo-allegro-main\main.c
 	<stdio.h>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
@@ -592,7 +592,7 @@
 1660572188 c:\users\user\3d objects\jogo-allegro-main\game.h
 	"Constants.h"
 
-1660648854 source:c:\users\user\3d objects\jogo-allegro-main\game.c
+1660779283 source:c:\users\user\3d objects\jogo-allegro-main\game.c
 	<stdio.h>
 
 1660574800 source:c:\users\user\3d objects\jogo-allegro-main\background.c
@@ -607,4 +607,16 @@
 
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
 	<allegro5/allegro.h>
+
+1660782872 source:c:\users\user\3d objects\jogo-allegro-main\player.c
+	<stdio.h>
+	<stdbool.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1660782836 source:c:\users\user\3d objects\jogo-allegro-main\bullet.c
+	<stdio.h>
+	<math.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
 
