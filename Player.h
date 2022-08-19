@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<allegro5/allegro.h>
+#include<allegro5/allegro_audio.h>
 #include<vector>
 
 #include "Bullet.h"
@@ -36,7 +37,7 @@ public:
 
     void hit()
     {
-        lives --;
+        lives--;
         al_start_timer(recoveryTimer);
     }
     bool isDead()
@@ -71,6 +72,8 @@ private:
     ALLEGRO_EVENT_QUEUE* event_queue;
     ALLEGRO_TIMER* recoveryTimer;
     ALLEGRO_COLOR color;
+    ALLEGRO_SAMPLE* shootSample;
+    ALLEGRO_SAMPLE_ID shootID;
 
     std::vector<Bullet*> bullets;
 };

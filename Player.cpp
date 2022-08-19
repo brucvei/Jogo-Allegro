@@ -24,6 +24,8 @@ void Player::init()
 
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
     al_register_event_source(event_queue, al_get_timer_event_source(recoveryTimer));
+
+    shootSample = al_load_sample("shoot.wav");
 }
 
 void Player::update()
@@ -107,6 +109,7 @@ void Player::update()
 void Player::fireBullet()
 {
     bullets.emplace_back(new Bullet(0, x, y));
+    al_play_sample(shootSample, 1, 0, 1, ALLEGRO_PLAYMODE_ONCE, &shootID);
 }
 
 void Player::render()
@@ -155,6 +158,8 @@ void Player::dispose()
     }
 
     bullets.clear();
+
+    al_destroy_sample(shootSample);
     al_destroy_event_queue(event_queue);
     al_destroy_timer(timer);
     al_destroy_timer(recoveryTimer);

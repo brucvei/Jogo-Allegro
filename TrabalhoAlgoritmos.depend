@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1660939382 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
+1660946898 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
 	"Constants.h"
 	"Game.h"
 
@@ -234,7 +236,7 @@
 
 1660798104 c:\users\user\3d objects\trabalhoalgoritmos\constants.h
 
-1660944764 c:\users\user\3d objects\trabalhoalgoritmos\game.h
+1660947511 c:\users\user\3d objects\trabalhoalgoritmos\game.h
 	"Background.h"
 	"Player.h"
 	"Enemy.h"
@@ -242,26 +244,29 @@
 	<cmath>
 	<allegro5/allegro.h>
 	<allegro5/allegro_font.h>
+	<allegro5/allegro_audio.h>
 
-1660865657 c:\users\user\3d objects\trabalhoalgoritmos\background.h
+1660948054 c:\users\user\3d objects\trabalhoalgoritmos\background.h
 	<iostream>
 	<allegro5/allegro.h>
 
 1362327499 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 
-1660865183 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
+1660948077 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	"Background.h"
 	"Constants.h"
 
-1660942402 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
+1660947813 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
 	"Game.h"
+	"Constants.h"
 
-1660944985 c:\users\user\3d objects\trabalhoalgoritmos\player.h
+1660949632 c:\users\user\3d objects\trabalhoalgoritmos\player.h
 	<iostream>
 	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
 	<vector>
 	"Bullet.h"
 
@@ -288,7 +293,7 @@
 	"Bullet.h"
 	"Constants.h"
 
-1660942768 source:c:\users\user\3d objects\trabalhoalgoritmos\enemy.cpp
+1660947509 source:c:\users\user\3d objects\trabalhoalgoritmos\enemy.cpp
 	"Enemy.h"
 	"Constants.h"
 	<cmath>
@@ -303,4 +308,11 @@
 
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_font.h
 	"allegro5/allegro.h"
+
+1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1362327499 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
 

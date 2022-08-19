@@ -4,14 +4,16 @@
 #include "Background.h"
 #include "Constants.h"
 
-Background::Background(std::string filename_) : filename(filename_)
+Background::Background(std::string filename)
 {
     backgroundImage = al_load_bitmap(filename.c_str());
     if(!backgroundImage)
     {
         std::cout << "Nao foi possivel carregar imagem " << filename << std::endl;
     }
-    al_draw_bitmap(backgroundImage,0,0,0);
+//    al_draw_bitmap(backgroundImage,0,0,0);
+    y = 0;
+    x = 0;
 }
 
 void Background::update()

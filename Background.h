@@ -5,7 +5,7 @@
 class Background
 {
 public:
-    Background(std::string filename_);
+    Background(std::string filename);
     void update();
     void render();
     void dispose();

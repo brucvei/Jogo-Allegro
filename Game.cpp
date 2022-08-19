@@ -15,8 +15,12 @@ void Game::init()
     al_start_timer(levelTimer);
 
     font = al_create_builtin_font();
-    bgm = al_load_audio_stream("", 2, 2048);
+    bgm = al_load_audio_stream("music.ogg", 2, 2048);
     al_set_audio_stream_playmode(bgm, ALLEGRO_PLAYMODE_LOOP);
+    al_set_audio_stream_playing(bgm, true);
+
+    al_attach_audio_stream_to_mixer(bgm, al_get_default_mixer());
+
 }
 
 void Game::update()
@@ -265,4 +269,5 @@ void Game::dispose()
     enemies.clear();
     al_destroy_timer(levelTimer);
     al_destroy_font(font);
+    al_destroy_audio_stream(bgm);
 }

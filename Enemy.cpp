@@ -94,7 +94,7 @@ void Enemy::update(float playerX, float playerY)
         bullet->update();
     }
 
-        for (auto bullet = bullets.begin(); bullet !=  bullets.end(); ++bullet)
+    for (auto bullet = bullets.begin(); bullet !=  bullets.end(); ++bullet)
     {
         if((*bullet)->remove())
         {

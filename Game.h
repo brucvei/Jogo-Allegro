@@ -41,7 +41,12 @@ private:
     ALLEGRO_TIMER* levelTimer;
     ALLEGRO_EVENT_QUEUE* event_queue;
     ALLEGRO_FONT* font;
-    ALLEGRO_AUDIO_STREAM* stream;
+    ALLEGRO_AUDIO_STREAM* bgm;
+
+    ALLEGRO_SAMPLE* playerHitSample;
+    ALLEGRO_SAMPLE* enemyHitSample;
+    ALLEGRO_SAMPLE* playerDeadSample;
+    ALLEGRO_SAMPLE* enemyDeadSample;
 
     int currentLevel;
 };

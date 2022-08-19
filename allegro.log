@@ -1,245 +1,418 @@
 system   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:633  _al_win_safe_load_library        [   0.00032] PathFindOnPath found: C:\Windows\system32\d3d9.dll
 system   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:544  load_library_at_path             [   0.00037] Calling LoadLibrary C:\Windows\system32\d3d9.dll
-system   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:547  load_library_at_path             [   0.00149] Loaded C:\Windows\system32\d3d9.dll
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:696  _al_d3d_init_display             [   0.00750] Render-to-texture: 1
-system   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\system.c:252  al_install_system                [   0.00752] Allegro version: 5.0.10
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1737 d3d_create_display_locked        [   0.00804] faux_fullscreen=0
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1738 d3d_create_display_locked        [   0.00805] al_display=00F2BC90
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1739 d3d_create_display_locked        [   0.00805] al_display->vt=00F2BC00
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.00979] found 64 format combinations
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00981] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00982] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00982] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00983] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00984] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00984] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00985] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00985] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00986] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00986] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00987] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00988] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00988] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00989] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00989] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00996] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00997] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00998] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00998] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.00999] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.00999] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01000] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01000] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01001] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01002] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01002] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01003] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01004] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01004] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01005] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01005] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01006] Score is : 897
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01006] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01007] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01008] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01008] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01009] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01010] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01010] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01011] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01011] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01012] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01013] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01013] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01014] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01014] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01015] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01016] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01016] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01017] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01017] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01018] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01018] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01019] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01020] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01020] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01021] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01022] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01022] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01023] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01023] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01024] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01025] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01025] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01026] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01026] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01027] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01028] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01028] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01029] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01029] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01030] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01030] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01031] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01032] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01032] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01033] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01033] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01034] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01035] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01037] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01038] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01038] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01039] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01040] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01040] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01041] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01041] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01042] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01043] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01043] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01044] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01044] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01045] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01045] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01046] Score is : 769
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01047] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01047] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01048] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01048] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01049] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01050] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01050] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01051] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01051] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01052] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01053] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01053] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01054] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01055] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01055] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01056] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01056] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01057] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01057] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01058] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01059] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01059] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01060] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+system   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:547  load_library_at_path             [   0.00189] Loaded C:\Windows\system32\d3d9.dll
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:696  _al_d3d_init_display             [   0.00803] Render-to-texture: 1
+system   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\system.c:252  al_install_system                [   0.00806] Allegro version: 5.0.10
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1737 d3d_create_display_locked        [   0.00856] faux_fullscreen=0
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1738 d3d_create_display_locked        [   0.00857] al_display=0110BC90
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1739 d3d_create_display_locked        [   0.00857] al_display->vt=0110BC00
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_display_formats.cpp:144  _al_d3d_generate_display_format_list [   0.01034] found 64 format combinations
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01036] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01037] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01038] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01039] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01039] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01040] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01040] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01041] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01041] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01042] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01043] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01043] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01044] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01044] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01045] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01050] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01050] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01051] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01052] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01052] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01053] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01053] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01054] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01055] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01055] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01056] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01056] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01057] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01057] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01058] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01059] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01059] Score is : 897
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01060] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
 display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01060] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01061] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01061] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
 display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01062] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01062] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01063] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01063] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01064] Single Buffer requirement not met.
-display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01065] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01062] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
 display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01065] Single Buffer requirement not met.
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1645 d3d_create_display_internals     [   0.01066] Trying format 0.
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1326 d3d_display_thread_proc          [   0.01081] Chose a display format: 23
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1395 d3d_display_thread_proc          [   0.01083] Normal window.
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:801  d3d_create_device                [   0.02482] Using no depth stencil buffer
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:866  d3d_create_device                [   0.04469] BeginScene succeeded in create_device
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:874  d3d_create_device                [   0.04472] Success
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1668 d3d_create_display_internals     [   0.04474] Resumed after wait.
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1701 d3d_create_display_internals     [   0.04476] Format 0 succeeded.
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1724 d3d_create_display_internals     [   0.04477] Returning d3d_display: 00F2BC90
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1749 d3d_create_display_locked        [   0.04478] al_display=00F2BC90
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1750 d3d_create_display_locked        [   0.04478] al_display->vt=00F2BC00
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.04609] added dtor for object 02BF8738, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.04611] added dtor for object 02BF87F8, func 639E04C0
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04806] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04807] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04808] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04809] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04810] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04810] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04811] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04812] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.04813] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1174 real_choose_bitmap_format        [   0.04814] Alpha doesn't match
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1181 real_choose_bitmap_format        [   0.04814] Adapter format is 23
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1184 real_choose_bitmap_format        [   0.04815] Found a format
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:2283 _al_d3d_create_bitmap            [   0.04815] Chose bitmap format 9
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.04837] added dtor for object 02BFDA30, func 6396DCCE
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.06259] _al_d3d_sync_bitmap (system) ref count == 1
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.06262] _al_d3d_sync_bitmap (video) ref count == 1
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08608] added dtor for object 02BFC3B8, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08611] added dtor for object 02BFC698, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08612] added dtor for object 02BFC788, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08613] added dtor for object 02BFC830, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08614] added dtor for object 02BFC8D8, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08620] added dtor for object 02BFC9C8, func 6396DCCE
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08682] added dtor for object 02BFD350, func 6396DCCE
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08837] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08839] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08839] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08840] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08840] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08841] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08841] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08842] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.08842] Fake format
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1174 real_choose_bitmap_format        [   0.08848] Alpha doesn't match
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1181 real_choose_bitmap_format        [   0.08849] Adapter format is 23
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1184 real_choose_bitmap_format        [   0.08849] Found a format
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:2283 _al_d3d_create_bitmap            [   0.08850] Chose bitmap format 9
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.08873] added dtor for object 02BFD590, func 6396DCCE
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.09491] _al_d3d_sync_bitmap (system) ref count == 1
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.09493] _al_d3d_sync_bitmap (video) ref count == 1
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [   0.09704] removed dtor for object 02BFD350
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.09708] added dtor for object 02BF2460, func 63957AE5
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [   0.09708] removed dtor for object 02BFC9C8
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.12326] _al_d3d_sync_bitmap (system) ref count == 1
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.12329] _al_d3d_sync_bitmap (video) ref count == 1
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.12860] _al_d3d_sync_bitmap (system) ref count == 1
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.12863] _al_d3d_sync_bitmap (video) ref count == 1
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08676] added dtor for object 02BF9DE0, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08685] added dtor for object 02BF9E58, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08690] added dtor for object 02BF9F68, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08698] added dtor for object 02C6B910, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08706] added dtor for object 02C6B9B8, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08709] added dtor for object 02C6BA30, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08714] added dtor for object 02C6BB40, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08717] added dtor for object 02C772F8, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08721] added dtor for object 02C773A0, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08724] added dtor for object 02C77418, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08730] added dtor for object 02C77528, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.08735] added dtor for object 02C775E8, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41728] removed dtor for object 02BFDA30
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41909] removed dtor for object 02BFC3B8
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41913] removed dtor for object 02BFC698
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41914] removed dtor for object 02BFC788
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41915] removed dtor for object 02C77528
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41916] removed dtor for object 02C775E8
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41922] removed dtor for object 02BFC830
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41923] removed dtor for object 02BF2460
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.41939] removed dtor for object 02BFD590
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:921  d3d_destroy_display              [  19.41950] destroying display 00F2BC90 (current 00000000)
-d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:905  d3d_destroy_display_internals    [  19.41954] waiting for display 00F2BC90's thread to end
-d3d      W d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:617  d3d_destroy_device               [  19.43270] d3d_destroy_device: ref count not 0
-d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1527 d3d_display_thread_proc          [  19.44113] d3d display thread exits
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44225] removed dtor for object 02BF87F8
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44230] removed dtor for object 02BF8738
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44233] calling dtor for object 02C77418, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44234] removed dtor for object 02C77418
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44235] calling dtor for object 02C773A0, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44236] removed dtor for object 02C773A0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44237] calling dtor for object 02C772F8, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44238] removed dtor for object 02C772F8
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44239] calling dtor for object 02C6BB40, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44240] removed dtor for object 02C6BB40
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44242] calling dtor for object 02C6BA30, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44244] removed dtor for object 02C6BA30
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44247] calling dtor for object 02C6B9B8, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44249] removed dtor for object 02C6B9B8
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44250] calling dtor for object 02C6B910, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44251] removed dtor for object 02C6B910
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44252] calling dtor for object 02BF9F68, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.44253] removed dtor for object 02BF9F68
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.44254] calling dtor for object 02BF9E58, func 639E04C0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.45369] removed dtor for object 02BF9E58
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.45373] calling dtor for object 02BF9DE0, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.45374] removed dtor for object 02BF9DE0
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  19.45375] calling dtor for object 02BFC8D8, func 6398BF0A
-dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  19.45376] removed dtor for object 02BFC8D8
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01065] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01066] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01067] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01068] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01068] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01069] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01069] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01070] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01071] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01071] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01072] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01072] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01073] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01074] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01074] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01075] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01075] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01076] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01076] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01078] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01082] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01083] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01084] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01085] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01086] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01087] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01088] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01089] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01090] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01091] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01092] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01093] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01094] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01095] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01096] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01097] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01098] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01099] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01100] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01101] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01102] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01103] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01104] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01105] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01106] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01107] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01108] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01109] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01110] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01111] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01112] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01113] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01114] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01115] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01116] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01117] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01118] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:506  _al_score_display_settings       [   0.01119] Score is : 769
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01120] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01121] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01121] color: 32 (rgba 8880), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01122] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01123] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01123] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01124] color: 32 (rgba 8880), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01125] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01126] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01127] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01128] color: 32 (rgba 8880), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01129] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01129] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01130] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01130] color: 32 (rgba 8880), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01131] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01132] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01132] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01133] color: 16 (rgba 5650), depth: 0, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01133] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01134] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01134] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01135] color: 16 (rgba 5650), depth: 24, stencil: 8, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01136] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01136] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01137] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01137] color: 16 (rgba 5650), depth: 24, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01138] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01139] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01139] Single Buffer requirement not met.
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:191  debug_display_settings           [   0.01140] color: 16 (rgba 5650), depth: 16, stencil: 0, acc: 0000, samples: 0/0
+display  D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\display_settings.c:377  _al_score_display_settings       [   0.01140] Single Buffer requirement not met.
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1645 d3d_create_display_internals     [   0.01141] Trying format 0.
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1326 d3d_display_thread_proc          [   0.01161] Chose a display format: 23
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1395 d3d_display_thread_proc          [   0.01163] Normal window.
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:801  d3d_create_device                [   0.02559] Using no depth stencil buffer
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:866  d3d_create_device                [   0.04619] BeginScene succeeded in create_device
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:874  d3d_create_device                [   0.04621] Success
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1668 d3d_create_display_internals     [   0.04624] Resumed after wait.
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1701 d3d_create_display_internals     [   0.04626] Format 0 succeeded.
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1724 d3d_create_display_internals     [   0.04627] Returning d3d_display: 0110BC90
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1749 d3d_create_display_locked        [   0.04627] al_display=0110BC90
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1750 d3d_create_display_locked        [   0.04628] al_display->vt=0110BC00
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.04781] added dtor for object 02728738, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.04783] added dtor for object 027287F8, func 639E04C0
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:244  _dsound_open                     [   0.04786] Loading DirectSound module
+system   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:633  _al_win_safe_load_library        [   0.04809] PathFindOnPath found: C:\Windows\system32\dsound.dll
+system   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:544  load_library_at_path             [   0.04810] Calling LoadLibrary C:\Windows\system32\dsound.dll
+system   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\wsystem.c:547  load_library_at_path             [   0.04928] Loaded C:\Windows\system32\dsound.dll
+audio-dsound I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:261  _dsound_open                     [   0.04930] Starting DirectSound...
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:271  _dsound_open                     [   0.06655] DirectSoundCreate8 succeeded
+audio    I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\audio.c:288  do_install_audio                 [   0.06854] Using DirectSound driver
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:306  _dsound_allocate_voice           [   0.06882] Allocating voice
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:365  _dsound_allocate_voice           [   0.06883] Allocated voice
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.06884] added dtor for object 02723568, func 63951B5D
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.06885] added dtor for object 02729D18, func 6394E167
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:462  _dsound_start_voice              [   0.06885] Starting voice
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:491  _dsound_start_voice              [   0.06886] CreateSoundBuffer
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:500  _dsound_start_voice              [   0.07076] CreateSoundBuffer succeeded
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:506  _dsound_start_voice              [   0.07080] Starting _dsound_update thread
+audio-dsound I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:516  _dsound_start_voice              [   0.07088] Voice started
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07092] added dtor for object 0272A038, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07097] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07098] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07099] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07103] added dtor for object 02729E18, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07135] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07137] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07138] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07140] added dtor for object 02737028, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07141] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07142] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07143] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07145] added dtor for object 02737110, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07147] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07148] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07150] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07152] added dtor for object 02736F40, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07153] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07155] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07155] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07156] added dtor for object 02736718, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07157] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07158] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07159] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07160] added dtor for object 02736630, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07161] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07162] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07162] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07163] added dtor for object 02736378, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07164] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07165] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07172] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07174] added dtor for object 02736C88, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07175] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07177] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07179] 
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07180] added dtor for object 027371F8, func 6394877A
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.07182] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07183] 
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.07185] 
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07470] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07472] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07474] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07474] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07476] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07477] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07478] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07479] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.07480] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1174 real_choose_bitmap_format        [   0.07481] Alpha doesn't match
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1181 real_choose_bitmap_format        [   0.07482] Adapter format is 23
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1184 real_choose_bitmap_format        [   0.07483] Found a format
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:2283 _al_d3d_create_bitmap            [   0.07484] Chose bitmap format 9
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.07504] added dtor for object 0273D180, func 6396DCCE
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.08880] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.08883] _al_d3d_sync_bitmap (video) ref count == 1
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11105] added dtor for object 02737358, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11108] added dtor for object 027373D0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11109] added dtor for object 027374C0, func 639E04C0
+wav      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\wav.c:107  wav_open                         [   0.11120] Ignoring chunk: LIST
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11125] added dtor for object 027277E0, func 6394F30E
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11152] added dtor for object 02737568, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11155] added dtor for object 02737610, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11164] added dtor for object 027380B0, func 6396DCCE
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11222] added dtor for object 027381F0, func 6396DCCE
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11365] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11365] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11366] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11367] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11367] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11368] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11368] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11369] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1166 real_choose_bitmap_format        [   0.11369] Fake format
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1174 real_choose_bitmap_format        [   0.11370] Alpha doesn't match
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1181 real_choose_bitmap_format        [   0.11370] Adapter format is 23
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1184 real_choose_bitmap_format        [   0.11371] Found a format
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:2283 _al_d3d_create_bitmap            [   0.11371] Chose bitmap format 9
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11388] added dtor for object 0273BD28, func 6396DCCE
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.11504] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.11505] _al_d3d_sync_bitmap (video) ref count == 1
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [   0.11782] removed dtor for object 027381F0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11785] added dtor for object 02722580, func 63957AE5
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [   0.11786] removed dtor for object 027380B0
+acodec   I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:439  _al_load_ogg_vorbis_audio_stream [   0.11788] Loading stream music.ogg.
+acodec   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:498  _al_load_ogg_vorbis_audio_stream_f [   0.11860] channels 2
+acodec   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:499  _al_load_ogg_vorbis_audio_stream_f [   0.11861] word_size 2
+acodec   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:500  _al_load_ogg_vorbis_audio_stream_f [   0.11861] rate 44100
+acodec   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:501  _al_load_ogg_vorbis_audio_stream_f [   0.11862] total_samples 9765000
+acodec   D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\acodec\ogg.c:502  _al_load_ogg_vorbis_audio_stream_f [   0.11862] total_size 39060000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   0.11869] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.11870]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   0.11871]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_stream.c:602  _al_kcm_feed_stream              [   0.11881] Stream feeder thread started.
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   0.11884] added dtor for object 027E1480, func 6398BF0A
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.16018] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.16022] _al_d3d_sync_bitmap (video) ref count == 1
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:467  _al_d3d_sync_bitmap              [   0.16571] _al_d3d_sync_bitmap (system) ref count == 1
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_bmp.cpp:473  _al_d3d_sync_bitmap              [   0.16575] _al_d3d_sync_bitmap (video) ref count == 1
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   1.99557] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   1.99565]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   1.99569]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   2.17898] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   2.17908]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   2.17911]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   2.56254] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   2.56261]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   2.56265]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   3.27908] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   3.27913]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   3.27915]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   3.61210] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   3.61218]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   3.61221]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   4.66230] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   4.66237]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   4.66240]  0.000000 0.707107
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11223] added dtor for object 0CC38468, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11230] added dtor for object 0CC384E0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11234] added dtor for object 0CC385F0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11237] added dtor for object 0CC38668, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11241] added dtor for object 0CC38778, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11244] added dtor for object 0CC387F0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11248] added dtor for object 0CC389A0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11251] added dtor for object 0CC38A18, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11254] added dtor for object 0CC38B28, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11257] added dtor for object 0CC38BA0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11260] added dtor for object 0CC38CB0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [   5.11263] added dtor for object 0CC38D28, func 639E04C0
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   8.76194] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   8.76203]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   8.76207]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   9.06191] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   9.06201]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   9.06207]  0.000000 0.707107
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:121  _al_rechannel_matrix             [   9.29596] sample matrix:
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   9.29606]  0.707107 0.000000
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_mixer.c:127  _al_rechannel_matrix             [   9.29612]  0.000000 0.707107
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81201] added dtor for object 0CC3C1C0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81207] added dtor for object 0CC3C238, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81212] added dtor for object 0CC3A978, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81216] added dtor for object 0CC3A9F0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81222] added dtor for object 0CC3AB00, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81229] added dtor for object 0CC40960, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81232] added dtor for object 0CC3ABE0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81235] added dtor for object 0CC40DF8, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81238] added dtor for object 0CC38DD0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81242] added dtor for object 0CC406C0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81245] added dtor for object 0CC38900, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81248] added dtor for object 0CC40A08, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81252] added dtor for object 0CC390B8, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81254] added dtor for object 0CC40810, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81259] added dtor for object 0CC39130, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81262] added dtor for object 0CC40420, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81266] added dtor for object 0CC41B88, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81269] added dtor for object 0CC40EA0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81274] added dtor for object 0CC41E58, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81278] added dtor for object 0CC40768, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81282] added dtor for object 0CC41C78, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81286] added dtor for object 0CC40618, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81290] added dtor for object 0CC41DE0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:184  _al_register_destructor          [  34.81293] added dtor for object 0CC40F48, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16849] removed dtor for object 0273D180
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16946] removed dtor for object 027277E0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16948] removed dtor for object 02737358
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16950] removed dtor for object 027373D0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16951] removed dtor for object 027374C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16952] removed dtor for object 0CC3C1C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16953] removed dtor for object 0CC3C238
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16954] removed dtor for object 0CC3A978
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16955] removed dtor for object 0CC3A9F0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16955] removed dtor for object 0CC3AB00
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16956] removed dtor for object 0CC40960
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16957] removed dtor for object 0CC3ABE0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16958] removed dtor for object 0CC40DF8
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16959] removed dtor for object 0CC38DD0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16959] removed dtor for object 0CC406C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16960] removed dtor for object 0CC38900
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16961] removed dtor for object 0CC40A08
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16962] removed dtor for object 0CC390B8
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16963] removed dtor for object 0CC40810
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16963] removed dtor for object 0CC39130
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16964] removed dtor for object 0CC40420
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16965] removed dtor for object 0CC41B88
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16966] removed dtor for object 0CC40EA0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16967] removed dtor for object 0CC41E58
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16967] removed dtor for object 0CC40768
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16968] removed dtor for object 0CC41C78
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16969] removed dtor for object 0CC40618
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16970] removed dtor for object 0CC41DE0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16971] removed dtor for object 0CC40F48
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16972] removed dtor for object 02737568
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16972] removed dtor for object 02722580
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16989] removed dtor for object 0273BD28
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.16996] removed dtor for object 027E1480
+audio    D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\kcm_stream.c:673  _al_kcm_feed_stream              [  37.16998] Stream feeder thread finished.
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:921  d3d_destroy_display              [  37.17022] destroying display 0110BC90 (current 00000000)
+d3d      D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:905  d3d_destroy_display_internals    [  37.17026] waiting for display 0110BC90's thread to end
+d3d      W d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:617  d3d_destroy_device               [  37.18724] d3d_destroy_device: ref count not 0
+d3d      I d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\win\d3d_disp.cpp:1527 d3d_display_thread_proc          [  37.19783] d3d display thread exits
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19825] removed dtor for object 027287F8
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19827] removed dtor for object 02728738
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19828] calling dtor for object 0CC38D28, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19829] removed dtor for object 0CC38D28
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19830] calling dtor for object 0CC38CB0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19831] removed dtor for object 0CC38CB0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19832] calling dtor for object 0CC38BA0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19833] removed dtor for object 0CC38BA0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19834] calling dtor for object 0CC38B28, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19835] removed dtor for object 0CC38B28
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19836] calling dtor for object 0CC38A18, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19836] removed dtor for object 0CC38A18
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19837] calling dtor for object 0CC389A0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19838] removed dtor for object 0CC389A0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19846] calling dtor for object 0CC387F0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19848] removed dtor for object 0CC387F0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19849] calling dtor for object 0CC38778, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19850] removed dtor for object 0CC38778
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19851] calling dtor for object 0CC38668, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19852] removed dtor for object 0CC38668
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19856] calling dtor for object 0CC385F0, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.19857] removed dtor for object 0CC385F0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.19858] calling dtor for object 0CC384E0, func 639E04C0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21202] removed dtor for object 0CC384E0
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.21205] calling dtor for object 0CC38468, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21205] removed dtor for object 0CC38468
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:114  _al_run_destructors              [  37.21207] calling dtor for object 02737610, func 6398BF0A
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21208] removed dtor for object 02737610
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21380] removed dtor for object 0272A038
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21382] removed dtor for object 02729E18
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21383] removed dtor for object 02737028
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21384] removed dtor for object 02737110
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21384] removed dtor for object 02736F40
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21385] removed dtor for object 02736718
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21386] removed dtor for object 02736630
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21387] removed dtor for object 02736378
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21387] removed dtor for object 02736C88
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21388] removed dtor for object 027371F8
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21388] removed dtor for object 02729D18
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:526  _dsound_stop_voice               [  37.21394] Stopping voice
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:542  _dsound_stop_voice               [  37.21394] Joining thread
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:548  _dsound_stop_voice               [  37.21580] Joined thread
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:550  _dsound_stop_voice               [  37.21581] Destroying thread
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:552  _dsound_stop_voice               [  37.21581] Thread destroyed
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:555  _dsound_stop_voice               [  37.21582] Releasing buffer
+audio-dsound I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:559  _dsound_stop_voice               [  37.21583] Voice stopped
+dtor     D d:\Libraries\build\allegro\src\allegro-git\allegro-git\src\dtor.c:214  _al_unregister_destructor        [  37.21584] removed dtor for object 02723568
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:375  _dsound_deallocate_voice         [  37.21585] Deallocating voice
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:380  _dsound_deallocate_voice         [  37.21586] Deallocated voice
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:289  _dsound_close                    [  37.21587] Releasing device
+audio-dsound D d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:291  _dsound_close                    [  37.22035] Released device
+audio-dsound I d:\Libraries\build\allegro\src\allegro-git\allegro-git\addons\audio\dsound.cpp:294  _dsound_close                    [  37.22037] DirectSound closed
