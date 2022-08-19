@@ -5,7 +5,7 @@
 class Background
 {
 public:
-    Background(std::string filename);
+    Background(std::string filename_);
     void update();
     void render();
     void dispose();
@@ -13,6 +13,8 @@ public:
 private:
     int x;
     int y;
+    std::string filename;
+
     ALLEGRO_BITMAP* backgroundImage;
 
 };

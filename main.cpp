@@ -2,6 +2,8 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
 #include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
 
 #include "Constants.h"
 #include "Game.h"
@@ -19,6 +21,8 @@ Game game;
 
 int main()
 {
+    srand(time(0));
+
     if (!al_init()) return -1;
 
     display = al_create_display(GAME_WIDTH, GAME_HEIGTH);
@@ -26,12 +30,16 @@ int main()
     timer = al_create_timer(1.0/FPS);
 
     al_install_keyboard();
+    al_install_audio();
+    al_init_acodec_addon();
     al_init_image_addon();
     al_init_primitives_addon();
 
     al_register_event_source(event_queue, al_get_display_event_source(display));
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
     al_register_event_source(event_queue, al_get_keyboard_event_source());
+
+    al_reserve_samples(10);
 
     bool running = true;
     bool redraw = true;
@@ -79,9 +87,6 @@ void render()
 
     game.render();
 
-    ALLEGRO_DISPLAY* display = NULL;
-    ALLEGRO_EVENT_QUEUE* event_queue = NULL;
-    ALLEGRO_TIMER* timer = NULL;
     al_flip_display();
 };
 

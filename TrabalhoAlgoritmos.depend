@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
+1660939382 source:c:\users\user\3d objects\trabalhoalgoritmos\main.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
@@ -234,27 +234,32 @@
 
 1660798104 c:\users\user\3d objects\trabalhoalgoritmos\constants.h
 
-1660798104 c:\users\user\3d objects\trabalhoalgoritmos\game.h
+1660944764 c:\users\user\3d objects\trabalhoalgoritmos\game.h
 	"Background.h"
 	"Player.h"
+	"Enemy.h"
+	<vector>
+	<cmath>
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
 
-1660798104 c:\users\user\3d objects\trabalhoalgoritmos\background.h
+1660865657 c:\users\user\3d objects\trabalhoalgoritmos\background.h
 	<iostream>
 	<allegro5/allegro.h>
 
 1362327499 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
 
-1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
+1660865183 source:c:\users\user\3d objects\trabalhoalgoritmos\background.cpp
 	<iostream>
 	<allegro5/allegro.h>
 	<allegro5/allegro_image.h>
 	"Background.h"
 	"Constants.h"
 
-1660798104 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
+1660942402 source:c:\users\user\3d objects\trabalhoalgoritmos\game.cpp
 	"Game.h"
 
-1660798312 c:\users\user\3d objects\trabalhoalgoritmos\player.h
+1660944985 c:\users\user\3d objects\trabalhoalgoritmos\player.h
 	<iostream>
 	<allegro5/allegro.h>
 	<vector>
@@ -263,21 +268,39 @@
 1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
 	<allegro5/allegro.h>
 
-1660796580 source:c:\users\user\3d objects\trabalhoalgoritmos\player.cpp
+1660944987 source:c:\users\user\3d objects\trabalhoalgoritmos\player.cpp
 	"Player.h"
 	"Constants.h"
+	<iostream>
+	<vector>
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
 
-1660798853 c:\users\user\3d objects\trabalhoalgoritmos\bullet.h
+1660944986 c:\users\user\3d objects\trabalhoalgoritmos\bullet.h
 	<iostream>
 	<allegro5/allegro.h>
 
-1660798910 source:c:\users\user\3d objects\trabalhoalgoritmos\bullet.cpp
+1660865743 source:c:\users\user\3d objects\trabalhoalgoritmos\bullet.cpp
 	<iostream>
 	<cmath>
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
 	"Bullet.h"
 	"Constants.h"
+
+1660942768 source:c:\users\user\3d objects\trabalhoalgoritmos\enemy.cpp
+	"Enemy.h"
+	"Constants.h"
+	<cmath>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1660945623 c:\users\user\3d objects\trabalhoalgoritmos\enemy.h
+	<iostream>
+	<allegro5/allegro.h>
+	<vector>
+	"Bullet.h"
+
+1372628331 c:\users\user\3d objects\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
 

@@ -16,6 +16,39 @@ public:
 
     void fireBullet();
 
+    std::vector<Bullet*> getBullets()
+    {
+        return bullets;
+    }
+
+    float getX()
+    {
+        return x;
+    }
+    float getY()
+    {
+        return y;
+    }
+    float getRadius()
+    {
+        return radius;
+    }
+
+    void hit()
+    {
+        lives --;
+        al_start_timer(recoveryTimer);
+    }
+    bool isDead()
+    {
+        return lives <= 0;
+    }
+    bool isRecovering()
+    {
+        return al_get_timer_started(recoveryTimer);
+    }
+
+
 private:
     float x;
     float y;
@@ -31,7 +64,13 @@ private:
     bool down;
     bool firing;
 
+    int lives;
+
     ALLEGRO_KEYBOARD_STATE key_state;
+    ALLEGRO_TIMER* timer;
+    ALLEGRO_EVENT_QUEUE* event_queue;
+    ALLEGRO_TIMER* recoveryTimer;
+    ALLEGRO_COLOR color;
 
     std::vector<Bullet*> bullets;
 };

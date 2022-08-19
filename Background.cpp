@@ -4,7 +4,7 @@
 #include "Background.h"
 #include "Constants.h"
 
-Background::Background(std::string filename)
+Background::Background(std::string filename_) : filename(filename_)
 {
     backgroundImage = al_load_bitmap(filename.c_str());
     if(!backgroundImage)
