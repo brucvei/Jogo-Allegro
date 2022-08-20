@@ -51,6 +51,11 @@ public:
         return bullets;
     }
 
+    ALLEGRO_COLOR getColor(){
+        return color;
+    }
+
+
 private:
     int star;
     float x;

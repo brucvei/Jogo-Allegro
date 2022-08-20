@@ -2,6 +2,7 @@
 #include "Background.h"
 #include "Player.h"
 #include "Enemy.h"
+#include "Explosion.h"
 
 #include <vector>
 #include <cmath>
@@ -37,6 +38,7 @@ private:
     Player player;
 
     std::vector<Enemy*> enemies;
+    std::vector<Explosion*> explosions;
 
     ALLEGRO_TIMER* levelTimer;
     ALLEGRO_EVENT_QUEUE* event_queue;
@@ -45,8 +47,15 @@ private:
 
     ALLEGRO_SAMPLE* playerHitSample;
     ALLEGRO_SAMPLE* enemyHitSample;
+
     ALLEGRO_SAMPLE* playerDeadSample;
+    ALLEGRO_SAMPLE_ID playerDeadSampleID;
+
     ALLEGRO_SAMPLE* enemyDeadSample;
+    ALLEGRO_SAMPLE_ID enemyDeadSampleID;
 
     int currentLevel;
+    bool gameOver;
+
+    ALLEGRO_KEYBOARD_STATE key_state;
 };
